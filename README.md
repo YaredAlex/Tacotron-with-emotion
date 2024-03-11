@@ -47,7 +47,7 @@ First, set your parameters in hyperparams.py. Note that you need to set "use_mon
 
 <pre>
 <code>
-synthesizing("The boy was there when the sun rose",1, hp)
+synthesizing("Desire sentence",1, hp)
 </code>
 </pre>
 
@@ -59,7 +59,7 @@ python synthesizing.py
 </code>
 </pre>
 
-For audio samples, I uploaded synthesized English sentence of "The boy was there when the sun rose" The algorithm has been trained 35000 steps for English around 40 hours. </br>
+For audio samples, we uploaded synthesized English sentence of "" The algorithm has been trained 35000 steps for English around 40 hours. </br>
 
 ## Notes
 
