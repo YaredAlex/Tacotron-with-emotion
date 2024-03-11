@@ -60,12 +60,11 @@ python synthesizing.py
 </code>
 </pre>
 
-For audio samples, I uploaded synthesized English sentence of "The boy was there when the sun rose" and Korean sentence of "오늘 점심은 쌀국수 한그릇 먹고싶네요" in a folder "sample_synthesis". The algorithm has been trained 77000 steps for English (roughly 40 hours), and 67000 steps for Korean (roughly 15 hours). </br>
+For audio samples, I uploaded synthesized English sentence of "The boy was there when the sun rose" The algorithm has been trained 35000 steps for English around 40 hours. </br>
 
 ## Notes
 
-- We have directly taken Dabin Moon implementation of tacotron and modified the encoder to accept one more input (emotion token)
-- As I have mentioned earlier, training Korean dataset takes quite less time than training English dataset. Thus, if you can understand both languages, you may notice that Korean synthesizing result sounds better than English one. The English result will be better if you spend more time on training.
-- Any comments on improving codes or questions are welcome, but it may take some time for me to respond.
-
-March 2024, Dabin Moon
+- We have directly taken Dabin Moon implementation of tacotron(https://github.com/dabsdamoon/tacotron_tensorflow2.0.git) and modified the encoder to accept one more input (emotion token)
+- The English result will be better if you spend more time on training.
+- Any comments on improving codes or questions are welcome,
+  March 2024,
