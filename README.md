@@ -33,8 +33,8 @@ python training.py
 
 ## Result
 
-To show some example results, I trained with both English and Korean dataset applying Bahdanau monotonic attention with normalization.
-Results of training English data (LJSpeech) are given below: </br>
+We trained with ESD dataset applying Bahdanau monotonic attention with normalization.
+Results of training English data ESD are given below: </br>
 ![Alt Text](https://github.com/YaredAlex/Tacotron-with-emotion/blob/main/results/linear-loss.png)
 ![Alt Text](https://github.com/YaredAlex/Tacotron-with-emotion/blob/main/results/mel-loss.png) </br>
 </br>
@@ -65,5 +65,5 @@ For audio samples, we uploaded synthesized English sentence of "" The algorithm 
 
 - We have directly taken Dabin Moon implementation of tacotron(https://github.com/dabsdamoon/tacotron_tensorflow2.0.git) and modified the encoder to accept one more input (emotion token)
 - The English result will be better if you spend more time on training.
-- Any comments on improving codes or questions are welcome,
-  March 2024,
+- Any comments on improving codes or questions are welcome.
+- March 2024
