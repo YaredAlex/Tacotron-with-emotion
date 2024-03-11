@@ -35,9 +35,8 @@ python training.py
 
 To show some example results, I trained with both English and Korean dataset applying Bahdanau monotonic attention with normalization.
 Results of training English data (LJSpeech) are given below: </br>
-![Alt Text](https://github.com/dabsdamoon/gif_save/blob/master/tacotron_English.gif) </br>
-![Alt Text](https://github.com/YaredAlex/Tacotron-with-emotion/tree/main/results/mel-loss.png)
-![Alt Text](https://github.com/YaredAlex/Tacotron-with-emotion/tree/main/results/linear-loss.png) </br>
+![Alt Text](https://github.com/YaredAlex/Tacotron-with-emotion/blob/main/results/linear-loss.png)
+![Alt Text](https://github.com/YaredAlex/Tacotron-with-emotion/blob/main/results/mel-loss.png) </br>
 </br>
 
 algorithm have been trained for roughly 15 hours.
