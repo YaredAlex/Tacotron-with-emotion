@@ -10,9 +10,7 @@ class Hyperparams:
     vocab = "PE abcdefghijklmnopqrstuvwxyz'.?" # P: Padding E: End of Sentence
     # data
     source = "EDS"
-    cleaners = "korean_cleaners" # cleaner to be used for tokenizing Korean
     data = "0015"
-    data_korean = "/korean-single-speaker-speech-dataset"
     max_duration = 10.0
     # signal processing
     sr = 22050 # Sample rate.
@@ -32,7 +30,7 @@ class Hyperparams:
     embed_size = 256 # alias = E
     encoder_num_banks = 16
     encoder_conv_channels = 256
-    encoder_prenet_size = encoder_conv_channels # should be equal to the encoder convolution channels since it's convolutioning with stride = 2
+    encoder_prenet_size = encoder_conv_channels 
     encoder_kernel_size = 5
     decoder_num_banks = 8
     decoder_conv_channels = 256
